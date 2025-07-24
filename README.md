@@ -18,43 +18,12 @@ A simple interactive expense tracker built with Python, SQLite, IPyWidgets, and 
 
 💾 Data persistence using SQLite
 
-🛠️ Technologies Used
-Python 3
-
-SQLite3 for lightweight database
-
-Pandas for data handling
-
-Plotly Express for interactive visualizations
-
-IPyWidgets for form inputs
-
-Jupyter Notebook / Google Colab
-
-▶️ How to Use
-Install Required Libraries:
-
-bash
-Copy
-Edit
-pip install --upgrade plotly ipywidgets
-Run the Notebook:
-
-Launch the notebook in Jupyter or Google Colab
-
-The app will initialize a local SQLite database (expenses.db) with sample data
-
-Add Expenses:
-
-Fill in Amount, Category, and Date
-
-Click "Add Expense"
-
-View Visualizations:
-
-Click "Show Visualizations"
-
-See pie chart (category-wise), bar chart (monthly), and summary stats
+Data Management: Stores and retrieves sales data (in INR) using SQLite.
+Data Preprocessing: Cleans and prepares data using pandas for model training.
+Machine Learning: Implements linear regression to predict future sales based on historical data.
+Visualization: Generates interactive sales trend visualizations using Plotly.
+Colab Compatibility: Designed to run seamlessly in Google Colab with clear setup instructions.
+Error Handling: Includes robust checks for database and data processing.
 
 📊 Sample Visuals
 Pie Chart – Distribution by Category
